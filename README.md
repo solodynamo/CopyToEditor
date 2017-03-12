@@ -26,6 +26,9 @@ An extension(chrome/firefox) to copy code snippets from all over the web just by
 ![Installation screenshot](https://s4.postimg.org/mdhxt8kxp/snappy.png)
 For additional help, refer the [official guide for Chrome](https://developer.chrome.com/extensions/getstarted#unpacked).
 
+- or Simply !!! just drag and drop the folder on the extensions page.
+![Simple installation screenshot](https://s30.postimg.org/tp32sj53l/Screen_Shot_2017_03_12_at_11_02_08_AM.png)
+
 ### Installing on Firefox
 - Load the extension into Firefox as a Temporary Add-on:
 
