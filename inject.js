@@ -21,7 +21,7 @@ script.innerHTML = "\n" +
     "block.style.border = '5px dashed #D81159';\n" +
     "setTimeout(function () {\n" +
     "return block.style.border = 'none';\n" +
-    "}, 1500);\n" +
+    "}, 500);\n" +
     "} catch (err) {\n" +
     "console.log('Failed to copy', err);\n" +
     "}\n" +
@@ -41,7 +41,7 @@ script.innerHTML = "\n" +
     "block.style.border = '5px dashed #D81159';\n" +
     "setTimeout(function () {\n " +
     "return block.style.border = 'none';\n" +
-    "}, 1500);\n" +
+    "}, 500);\n" +
     "} catch (err) {\n" +
     "console.log('Failed to copy', err);\n" +
     "}\n" +
@@ -61,7 +61,7 @@ script.innerHTML = "\n" +
     "block.style.border = '5px dashed #D81159';\n" +
     "setTimeout(function () {\n" +
     "return block.style.border = 'none';\n" +
-    "}, 1500);\n" +
+    "}, 500);\n" +
     "} catch (err) {" +
     "console.log('Failed to copy', err);" +
     "}" +
@@ -81,7 +81,7 @@ script.innerHTML = "\n" +
     "block.style.border = '5px dashed #D81159';\n" +
     "setTimeout(function () {\n" +
     "return block.style.border = 'none';\n" +
-    "}, 1500);\n" +
+    "}, 500);\n" +
     "} catch (err) {\n" +
     "console.log('Failed to copy', err);" +
     "}" +
