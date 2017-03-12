@@ -1,0 +1,32 @@
+{
+    "author": "Ankit Singh <bittuf3@gmail.com>",
+	"homepage_url": "https://github.com/solodynamo",
+    "short_name": "Code Copy Cat",
+    "browser_action": {
+        "default_icon": {
+            "144": "images/codeToEditor.png"
+        },
+        "default_title": "Copy To Editor"
+    },
+    "permissions": [
+        "clipboardWrite"
+	],
+    "content_scripts": [
+        {
+            "js": [
+                "inject.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ],
+    "description": "Double click on any code snippet on web and it would get copied and then paste it into your editor. ",
+    "icons": {
+        "144": "images/codeToEditor.png"
+    },
+    "manifest_version": 2,
+    "name": "Copy To Editor",
+    "version": "1.1"
+}
